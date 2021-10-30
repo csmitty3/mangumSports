@@ -8,8 +8,9 @@ html {
     font-size: 14px;
     align-items: center;
     list-style: none;
-    margin-bottom: 0%;
+    margin: 0;
     font-family: "Rubik";
+    padding: 0;
 }
 .top :hover {
     color: black;
@@ -24,6 +25,8 @@ html {
     margin-top: 0%;
     font-family: "Space Mono";
     height: 40px;
+    margin: 0;
+    padding: 0;
 
 }
 .nav :hover {
@@ -34,11 +37,7 @@ html {
     padding-right: 15px;
 }
 .nav li {
-    border-left: thin groove whitesmoke;
-    border-right: thin groove whitesmoke;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding: 8px;
+    padding: auto 8;
 }   
 #logo {
     display: block;
@@ -63,6 +62,7 @@ html {
 .image {
     background-image: url(resources/DaveCoachWide.jpg);
     height: 630px;
+    width: auto;
 }
 #Dave {
     height: 70%;
@@ -73,6 +73,9 @@ html {
     font-family: "Permanent Marker";
     font-size: 18px;
     text-align: justify;
+    overflow: scroll;
+    height: 326px;
+    min-width: 300px;
 }
 .about li {
     list-style: none;
