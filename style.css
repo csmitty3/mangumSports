@@ -65,14 +65,20 @@ html {
     height: 630px;
 }
 #Dave {
+    height: 70%;
     border-radius: 50%;
+    border: medium solid black;
 }
 #bio {
     font-family: "Permanent Marker";
-    font-size: 25px;
+    font-size: 18px;
+    text-align: justify;
 }
 .about li {
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+.about ul{
+    display: flex;
 }
