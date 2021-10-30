@@ -1,15 +1,13 @@
 html {
-    background-color: hsl(301, 3%, 29%);
+    background-color: hsl(271, 6%, 66%);
 }
 .top {
     display: flex;
     height: 2.00rem;
-    background-color: hsl(301, 3%, 29%);
-    color: rgb(157, 10, 255);
+    color: rgb(80, 46, 120);
     font-size: 14px;
     align-items: center;
     list-style: none;
-    border: thick solid black;
     margin-bottom: 0%;
     font-family: "Rubik";
 }
@@ -25,20 +23,56 @@ html {
     color: whitesmoke;
     margin-top: 0%;
     font-family: "Space Mono";
+    height: 40px;
 
 }
 .nav :hover {
-    color: rgb(157, 10, 255);
+    color: rgb(80, 46, 120);
+    font-size: 125%;
 }
 #cell {
     padding-right: 15px;
 }
-.nav[li] {
-    border: medium solid whitesmoke;
-}
+.nav li {
+    border-left: thin groove whitesmoke;
+    border-right: thin groove whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 8px;
+}   
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
+}
+#phone {
+    width: 15px;
+    height: auto;
+
+}
+#email {
+    height: 20px;
+    width: auto;
+}
+#insta {
+    height: 20px;
+    width: auto;
+    padding-right: 15px;
+}
+.image {
+    background-image: url(resources/DaveCoachWide.jpg);
+    height: 630px;
+}
+#Dave {
+    border-radius: 50%;
+}
+#bio {
+    font-family: "Permanent Marker";
+    font-size: 25px;
+}
+.about li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
